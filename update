@@ -1,0 +1,198 @@
+<html lang="id">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servis Motor Panggilan Jakarta 24 Jam | Ganni Motor</title>
+    
+    <meta name="description" content="Servis motor panggilan Jakarta 24 jam. Ganni Motor siap datang maksimal 30 menit. Mekanik profesional, fast response & bergaransi.">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="montir panggilan jakarta, bengkel motor terdekat, servis motor jakarta, motor mogok jakarta">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #22c55e;
+            --secondary: #38bdf8;
+            --dark: #020617;
+            --light: #cbd5f5;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f0f4ff;
+            color: #1e293b;
+            overflow-x: hidden;
+        }
+
+        h1, h2, .brand {
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        h1 { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
+        h2 { font-size: 1.2rem; color: #166534; margin-top: 30px; }
+        p { line-height: 1.6; }
+
+        /* ANIMASI */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 1.2s ease-out forwards;
+        }
+
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* NAV */
+        nav {
+            background: var(--dark);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #94a3b8;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        nav a:hover { color: var(--primary); }
+
+        /* HERO */
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
+                        url('https://images.unsplash.com/photo-1558981806-ec527fa84c39') center/cover;
+            color: white;
+        }
+        .logo {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .brand {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin: 10px 0;
+        }
+
+        /* BUTTONS */
+        .btn-group { margin-top: 25px; }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+            margin: 5px;
+        }
+        .btn-wa { background: var(--primary); color: #052e16; }
+        .btn-wa:hover { background: #16a34a; transform: scale(1.05); }
+        .btn-map { background: var(--secondary); color: #082f49; }
+
+        /* CONTENT SECTION */
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 10px 0;
+            border-left: 4px solid var(--primary);
+            color: var(--light);
+            transition: 0.3s;
+        }
+        .card:hover { background: #334155; }
+
+        /* FLOATING WA */
+        .floating-wa {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 999;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 10px;
+            background: var(--dark);
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Layanan</a>
+    <a href="#">Harga</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="hero fade-in">
+    <img src="logo.png" class="logo" alt="Ganni Motor Logo" onerror="this.style.display='none'">
+    <h1>SERVIS MOTOR PANGGILAN</h1>
+    <p class="brand">GANNI MOTOR</p>
+    <p style="font-weight:300; letter-spacing: 2px;">REPAIR YOUR MOTORBIKE ANYWHERE</p>
+    
+    <div class="btn-group">
+        <a class="btn btn-wa" href="https://wa.me/6289637591994" target="_blank">🚀 MEKANIK OTW</a>
+        <a class="btn btn-map" href="https://goo.gl/maps/xyz" target="_blank">📍 LOKASI</a>
+    </div>
+</div>
+
+<section class="fade-in">
+    <h2>Bengkel Motor Terdekat Jakarta Timur</h2>
+    <p>Ganni Motor adalah solusi <strong>bengkel motor panggilan Jakarta Timur</strong>. Kami hadir langsung ke rumah, kantor, atau saat Anda mengalami kendala di jalan.</p>
+    
+    <div class="card">⚡ Respon Cepat (Maks 30 Menit)</div>
+    <div class="card">🔧 Mekanik Berpengalaman & Profesional</div>
+    <div class="card">💰 Harga Transparan & Kompetitif</div>
+</section>
+
+<section class="fade-in">
+    <h2>Layanan Kami</h2>
+    <div class="card">🛠 Servis Injeksi & Pembersihan Throttle Body</div>
+    <div class="card">🛵 Servis CVT Matic (Kirian)</div>
+    <div class="card">⚡ Perbaikan Kelistrikan & Ganti Aki</div>
+    <div class="card">⚙️ Ganti Oli & Sparepart Original</div>
+</section>
+
+<section class="fade-in" style="text-align:center; margin-bottom: 50px;">
+    <h2>Butuh Bantuan Darurat?</h2>
+    <p>Jangan dorong motor Anda! Klik tombol di bawah:</p>
+    <a class="btn btn-wa" href="https://wa.me/6289637591994" style="padding: 18px 40px;">HUBUNGI SEKARANG</a>
+</section>
+
+<a class="floating-wa" href="https://wa.me/6289637591994" target="_blank">🟢</a>
+
+<footer>
+    <p>&copy; 2026 GANNI MOTOR - Professional Mobile Mechanic Services</p>
+    <p style="font-size: 10px; opacity: 0.5;">JAKARTA - INDONESIA</p>
+</footer>
+
+</body>
+</html>
