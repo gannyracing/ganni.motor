@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GANNI MOTOR • servis Motor Panggilan Jakarta 24 Jam | Ganni Motor</title>
+
+<meta name="description" content="Servis motor panggilan Jakarta 24 jam. Ganni Motor siap datang maksimal 30 menit. Fast response & bergaransi.">
+<meta name="keywords" content="servis motor jakarta, montir panggilan, bengkel motor terdekat">
+<meta name="robots" content="index, follow">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<!-- SEO STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "AutoRepair",
+ "name": "Ganni Motor",
+ "areaServed": "Jakarta",
+ "telephone": "+6289637591994",
+ "url": "https://gannyracing.github.io/ganni-motor/"
+}
+</script>
+ <style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:#0f172a;
+  color:#e5e7eb;
+}
+
+/* TYPOGRAPHY */
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h2 {
+  font-weight: 600;
+  color:#22c55e;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ANIMASI */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* NAV */
+nav {
+  background:rgba(2,6,23,0.8);
+  backdrop-filter: blur(10px);
+  padding: 12px;
+  text-align: center;
+  border-bottom:1px solid #1f2937;
+  position: sticky;
+  top:0;
+  z-index:999;
+}
+
+nav a {
+  color:#94a3b8;
+  margin: 10px;
+  text-decoration: none;
+  font-weight:500;
+}
+
+nav a:hover {
+  color:#22c55e;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.95)),
+  url('https://images.unsplash.com/photo-1558981806-ec527fa84c39');
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color:#22c55e;
+  letter-spacing: 2px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration:none;
+  transition: 0.3s;
+}
+
+.btn-wa { 
+  background:#22c55e; 
+  color:#022c22; 
+  box-shadow: 0 0 15px rgba(34,197,94,0.4);
+}
+
+.btn-wa:hover {
+  transform: scale(1.05);
+  background:#16a34a;
+}
+
+.btn-map { 
+  background:#38bdf8; 
+  color:#022c22; 
+}
+
+.btn-map:hover {
+  transform: scale(1.05);
+  background:#0ea5e9;
+}
+
+/* SECTION */
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #1f2937;
+}
+
+/* CARD */
+.card {
+  background:#1e293b;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 12px;
+  border-left: 4px solid #22c55e;
+  color:#cbd5f5;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background:#273449;
+}
+
+/* FLOATING WA */
+.floating-wa {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:#22c55e;
+  color:#022c22;
+  padding: 16px;
+  border-radius: 50px;
+  font-weight:bold;
+  box-shadow: 0 0 20px rgba(34,197,94,0.6);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 rgba(34,197,94,0.6); }
+  50% { box-shadow: 0 0 25px rgba(34,197,94,1); }
+  100% { box-shadow: 0 0 0 rgba(34,197,94,0.6); }
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background:#020617;
+  color:#64748b;
+}
+</style>
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="layanan.html">Layanan</a>
+  <a href="harga.html">Harga</a>
+  <a href="kontak.html">Kontak</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <img src="logo.png" class="logo">
+  <h1>GANNI MOTOR Bengkel Motor Panggilan Jakarta</h1>
+  <p>Fast Response • Maks 30 Menit • <strong>BERGARANSI</strong></p>
+
+  <a class="btn btn-wa" href="https://wa.me/6289637591994">Chat WA</a>
+</div>
+
+<section>
+  <h2>Kenapa Pilih Kami?</h2>
+  <div class="card">⚡ Datang Maks 30 Menit</div>
+  <div class="card">🔧 Mekanik Profesional</div>
+  <div class="card">🕒 Akurat</div>
+</section>
+
+<footer style="text-align:center;padding
